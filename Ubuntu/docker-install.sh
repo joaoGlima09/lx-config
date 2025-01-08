@@ -32,4 +32,4 @@ echo "Docker Compose Version:"
 docker-compose --version
 
 # Exibir mensagem final
-echo "Script finalizado! Por favor, reinicie sua sessão para aplicar as permissões do grupo Docker."
+echo "Script finalizado! Por favor, reinicie sua sessão para aplicar as permissões do grupo Docker.."
