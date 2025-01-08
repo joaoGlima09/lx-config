@@ -53,4 +53,4 @@ git remote add origin "https://github.com/$(gh auth status | grep -oP '(?<=accou
 echo "Enviando para o GitHub..."
 git push -u origin main
 
-echo "Repositório criado e pronto no GitHub! 🎉"
+echo "Repositório criado e pronto no GitHub!!! 🎉"
