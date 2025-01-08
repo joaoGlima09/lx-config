@@ -23,7 +23,7 @@ else
 fi
 
 # Criar repositório no GitHub
-echo "Criando o repositório no GitHub..."
+echo "Criando o repositório no GitHub...."
 gh repo create "$REPO_NAME" --description "$REPO_DESC" --"$VISIBILITY" --confirm
 
 if [[ $? -ne 0 ]]; then
