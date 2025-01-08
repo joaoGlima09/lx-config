@@ -32,4 +32,4 @@ git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"
 
 # Confirmar sucesso
-echo "Configuração concluída! Teste o GitHub CLI com: gh --version"
+echo "Configuração concluída! Teste o GitHub CLI com: gh --version !"
