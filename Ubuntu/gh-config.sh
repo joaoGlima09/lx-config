@@ -23,7 +23,7 @@ echo "Instalando GitHub CLI..."
 sudo apt update -y && sudo apt install gh -y
 
 # Configurar autenticação do GitHub CLI
-echo "Iniciando autenticação no GitHub..."
+echo "Iniciando autenticação no GitHub...."
 gh auth login
 
 # Configurar Git com as informações fornecidas
