@@ -3,6 +3,9 @@
 # Script para configurar GitHub CLI e Git
 # Criado em: 2025-01-08
 
+# Atualizar o sistema
+sudo apt update && sudo apt upgrade -y
+
 # Solicitar nome e e-mail do usuário
 read -p "Digite o seu usuário (GitHub): " NAME
 read -p "Digite o seu e-mail (GitHub): " EMAIL
