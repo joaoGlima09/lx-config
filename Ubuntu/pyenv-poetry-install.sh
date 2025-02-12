@@ -1,6 +1,11 @@
 #!/bin/bash
 
 # Script para instalar Pyenv e Poetry
+# Criado em: 2025-01-05
+
+# Atualizar o sistema
+sudo apt update && sudo apt upgrade -y
+
 
 # Função para verificar se um comando está disponível
 command_exists() {
@@ -22,7 +27,6 @@ fi
 
 # Instalando dependências para Pyenv
 echo "Instalando dependências para Pyenv..."
-sudo apt update -y
 sudo apt install -y \
     make build-essential libssl-dev zlib1g-dev \
     libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
