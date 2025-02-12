@@ -3,6 +3,9 @@
 # Script para criar um repositório no GitHub e fazer o primeiro commit
 # Criado em: 2025-01-08
 
+# Atualizar o sistema
+sudo apt update && sudo apt upgrade -y
+
 # Verificar se o GitHub CLI está instalado
 if ! command -v gh &> /dev/null; then
     echo "Erro: GitHub CLI (gh) não está instalado."
