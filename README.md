@@ -10,6 +10,18 @@ This repository contains a collection of ShellScripts designed to streamline the
 - Scripts for configuring popular programming languages and frameworks.
 - Optimized for various Linux distributions.
 
+### Before using
+
+ATTENTION
+
+- If necessary, convert the .sh file before running it using (dos2unix):
+
+  ```
+  sudo apt install dos2unix /
+  dos2unix docker-install.sh /
+  bash docker-install.sh
+  ```
+
 ### Usage
 
 1. Clone the repository:
@@ -46,6 +58,18 @@ Este repositório contém uma coleção de ShellScripts criados para agilizar a 
 - Instalação fácil de ferramentas de desenvolvimento.
 - Scripts para configurar linguagens de programação e frameworks populares.
 - Otimizado para diversas distribuições Linux.
+
+### Antes de usar
+
+ATENÇÃO
+
+- Caso seja necessário converta o arquivo sh antes de sua execução utilizando (dos2unix)
+
+  ```
+  sudo apt install dos2unix /
+  dos2unix docker-install.sh /
+  bash docker-install.sh
+  ```
 
 ### Como usar
 
